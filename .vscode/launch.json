@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ClasePrimerProyecto",
+            "request": "launch",
+            "mainClass": "Day1.ClasePrimerProyecto",
+            "projectName": "JavaArgentinaPrograma-4.0_cf2df7e7"
+        },
+        {
+            "type": "java",
+            "name": "Launch primerClase",
+            "request": "launch",
+            "mainClass": "Day1.primerClase",
+            "projectName": "JavaArgentinaPrograma-4.0_cf2df7e7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hola",
+            "request": "launch",
+            "mainClass": "Day1.Hola",
+            "projectName": "JavaArgentinaPrograma-4.0_cf2df7e7"
+        },
+        {
+            "type": "java",
+            "name": "Launch hola",
+            "request": "launch",
+            "mainClass": "Day1.hola",
+            "projectName": "JavaArgentinaPrograma-4.0_cf2df7e7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
