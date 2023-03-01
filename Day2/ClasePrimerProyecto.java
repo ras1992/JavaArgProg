@@ -75,4 +75,16 @@ class EjerciciosTp1 {
             }        
         }
     }
+    void Ej2a() {
+        System.out.println("\nEjercicio 1b");
+        // Muestra todos los valores del intervalo que son enteros;
+        int numeroInicio = 5;
+        int numeroFin = 14;
+
+        for (; numeroInicio <= numeroFin; --numeroFin) {
+            if (numeroFin % 2 == 0) {
+                System.out.println(numeroFin);
+            }        
+        }
+    }
 }
