@@ -59,6 +59,14 @@ public class Arrays {
                 persistencia();
                 break;
             // más casos si es necesario
+            case "3":
+                accion.ordenamiento(3);
+                persistencia();
+                break;
+            case "4":
+                accion.letraRep("La gorda canta feo","a");
+                persistencia();
+                break;
             default:
                 System.out.println("¿Sabes leer o te haces?\n");
                 persistencia();
@@ -81,4 +89,44 @@ public class Arrays {
             System.out.print("Array de: "+numeros.length+" largo.");
         }
 
+        void letraRep(String texto,String letra){
+            var cont=0;
+            String texto1=texto;
+            for (int i = 0; i < texto.length(); i++) {
+                char letra1= texto1.charAt(i);
+                String s = new String(new char[] {letra1});
+                if (s.equals(letra)){
+                    cont++;
+                }
+                
+                
+            }
+            System.out.println("La letra ("+letra+") esta repetida: "+cont+" veces.");
+        }
+
+        void ordenamiento(int n){
+            int numeros[] = new int[n];
+            Scanner scanner = new Scanner(System.in);
+            int acum=0;
+            
+            for (int i = 0; i < 3; i++) {
+                System.out.println("Ingrese 1 numero: \n");
+                int seleccion = Integer.parseInt(scanner.next());
+                numeros[i]= seleccion;     
+            }
+            for (int i = 0; i < 2; i++) {
+                if(numeros[i]>numeros[i+1]){
+                    acum =numeros[i+1];
+                    numeros[i+1]=numeros[i];
+                    numeros[i]=acum;
+                    i=0;
+                }
+                     
+            }
+            System.out.println("Num ordenados: ");
+            for (int i = 0; i < 3; i++) {
+                System.out.println(numeros[i]);     
+            }
+
+        }
     }
