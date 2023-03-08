@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lecturaArchivos",
+            "request": "launch",
+            "mainClass": "Day4.lecturaArchivos",
+            "projectName": "Java_f8ca7fc6"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Day4.test",
+            "projectName": "Java_f8ca7fc6"
+        },
+        {
+            "type": "java",
             "name": "Launch Arrays",
             "request": "launch",
             "mainClass": "Day3.Arrays",
