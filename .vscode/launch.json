@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TpClase4",
+            "request": "launch",
+            "mainClass": "Day5.TpClase4",
+            "projectName": "Java_f8ca7fc6"
+        },
+        {
+            "type": "java",
             "name": "lecturaArchivos",
             "request": "launch",
             "mainClass": "Day4.lecturaArchivos",
